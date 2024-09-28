@@ -13,7 +13,7 @@
 /* SMALL screen media query START */
 @media (max-width:480px) {
   .left-text h1 {
-    font-size: 35px;
+    font-size: 45px;
   }
 
   .left-text {
