@@ -27,6 +27,15 @@ body {
   font-weight: 600;
 }
 
+.breadcrumb li a {
+  color: #111;
+  text-decoration: none;
+}
+
+.breadcrumb li i {
+  font-size: 25px;
+}
+
 .home-left {
   padding: 0;
   background-size: cover;
@@ -128,5 +137,55 @@ body {
 
 .product-sec {
   height: 100vh;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+}
+
+.product-sec h4 {
+  position: relative;
+}
+
+.product-sec h4::after {
+  content: "";
+  position: absolute;
+  bottom: -7px;
+  left: 0;
+  width: 70px;
+  height: 3px;
+  background-color: #ca1515;
+}
+
+.product-tabs {
+  display: flex;
+  list-style: none;
+}
+
+.product-tabs li {
+  margin: 0px 1vw;
+}
+
+
+
+.pd-pic {
+  height: 360px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+
+}
+
+.pd-badge {
+  position: absolute;
+  left: 8px;
+  top: 7px;
+}
+
+.pd-text {
+  text-align: center;
+  margin: 10px 0px;
+}
+
+.pd-text .rating .rating-star {
+  color: gold;
+
+
 }

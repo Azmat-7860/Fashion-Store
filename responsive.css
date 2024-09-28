@@ -11,7 +11,7 @@
 
 
 /* SMALL screen media query START */
-@media (max-width:480px) {
+@media (max-width:575px) {
   .left-text h1 {
     font-size: 45px;
   }
@@ -19,5 +19,11 @@
   .left-text {
     margin-left: 15px;
 
+  }
+
+  .pd-badge {
+    position: absolute;
+    left: 88px;
+    top: 7px;
   }
 }
