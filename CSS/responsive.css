@@ -1,0 +1,20 @@
+/* large screen media query start */
+@media (min-width : 993px){
+  .offcanvas-body a{
+    margin: 10px 5px;
+    
+  }
+ 
+}
+/* large screen media query end */
+/* SMALL screen media query START */
+@media (max-width:480px){
+  .left-text h1{
+    font-size: 35px;
+  }
+  .left-text{
+    
+    margin-left: 15px;
+    
+  }
+}
