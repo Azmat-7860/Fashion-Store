@@ -40,8 +40,9 @@ body {
   padding: 0;
   background-size: cover;
   background-position: center;
-  height: 500px;
+  height: 484px;
   position: relative;
+
 }
 
 .left-text {
@@ -163,14 +164,63 @@ body {
   margin: 0px 1vw;
 }
 
-
-
+/* Existing styles */
 .pd-pic {
+  min-width: 200px;
+  max-width: 270px;
   height: 360px;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
+}
 
+.pd-pic .pd-hover {
+  position: absolute;
+  height: 50px;
+  visibility: hidden;
+  /* initially hidden */
+  opacity: 0;
+  /* invisible */
+  padding-left: 0px;
+  width: 100%;
+  bottom: 30px;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  transform: translateY(20px);
+}
+
+.pd-pic:hover .pd-hover {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.pd-hover a {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 20%;
+  transition: background-color 0.32s ease-out, color 0.32s ease-out;
+}
+
+.pd-hover a i {
+  transition: transform 0.6s ease;
+}
+
+.pd-hover a:hover {
+  background-color: red;
+  color: white;
+
+  transition: transform 0.6s ease;
+}
+
+.pd-hover a:hover i {
+  transform: rotate(360deg);
 }
 
 .pd-badge {
