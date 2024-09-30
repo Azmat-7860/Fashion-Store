@@ -97,19 +97,18 @@
     </div>
   </nav>
   <section id="home" class="home">
-    <div class="container-fluid row  m-auto">
-      <div class="col-lg-6 home-left"
-        style="background-image: url(images/category-1.jpg.webp); background-repeat: no-repeat;">
-        <div class="left-text   ">
+    <div class="container-fluid home-container   m-auto">
+      <div class=" home-left" style="background-image: url(images/category-1.jpg.webp); background-repeat: no-repeat;">
+        <div class="left-text">
           <h1 class="">Women’s fashion</h1>
           <p>Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore
             edolore magna aliquapendisse ultrices gravida.</p>
           <a href="#product">SHOP NOW</a>
         </div>
       </div>
-      <div class="col-lg-6 home-right">
-        <div class="row ms-0 ">
-          <div class="col-6 right-items"
+      <div class=" home-right">
+        <div class="right-container ms-0 ">
+          <div class=" right-items"
             style="background-image: url(images/category-2.jpg.webp); background-repeat: no-repeat; background-size: cover;">
             <div class="right-text">
               <h4>Men's fashion</h4>
@@ -118,7 +117,7 @@
             </div>
           </div>
 
-          <div class="col-6 right-items"
+          <div class=" right-items"
             style="background-image: url(images/category-3.jpg.webp); background-repeat: no-repeat; background-size: cover;">
             <div class="right-text">
               <h4>Kid's fashion</h4>
@@ -127,7 +126,7 @@
             </div>
           </div>
 
-          <div class="col-6 right-items"
+          <div class=" right-items"
             style="background-image: url(images/category-4.jpg.webp); background-repeat: no-repeat; background-size: cover;">
             <div class="right-text">
               <h4>Cosmetic</h4>
@@ -136,7 +135,7 @@
             </div>
           </div>
 
-          <div class="col-6 right-items"
+          <div class=" right-items"
             style="background-image: url(images/category-5.jpg.webp); background-repeat: no-repeat; background-size: cover;">
             <div class="right-text">
               <h4>Accessories</h4>
@@ -149,66 +148,6 @@
       </div>
 
 
-    </div>
-  </section>
-
-  <section class="banner mt-4" id="banner">
-    <div class="container">
-      <div class="row">
-        <div class="col-10 colsm10 col-md-8 bn-container m-auto">
-
-          <!-- Carousel wrapper with automatic play -->
-          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-interval="3000">
-
-            <!-- Carousel indicators -->
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
-                aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
-                aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
-                aria-label="Slide 3"></button>
-            </div>
-
-            <!-- Carousel items -->
-            <div class="carousel-inner d-flex align-items-center" style="height: 400px;">
-              <div class="carousel-item active">
-                <div class="banner-text text-center">
-                  <span>The Chole Collection</span>
-                  <h1>The Project JACKET</h1>
-                  <a href="#product">SHOP NOW</a>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="banner-text text-center">
-                  <span>The Chole Collection</span>
-                  <h1>The Project JACKET</h1>
-                  <a href="#product">SHOP NOW</a>
-                </div>
-              </div>
-              <div class="carousel-item">
-                <div class="banner-text text-center">
-                  <span>The Chole Collection</span>
-                  <h1>The Project JACKET</h1>
-                  <a href="#product">SHOP NOW</a>
-                </div>
-              </div>
-            </div>
-
-            <!-- Controls -->
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
-              data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
-              data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-        </div>
-      </div>
     </div>
   </section>
 
@@ -407,7 +346,75 @@
 
     </div>
   </section>
+  <section class="banner mt-4" id="banner">
+    <div class="container">
+      <div class="row">
+        <div class="col-10 colsm10 col-md-8 bn-container m-auto">
 
+          <!-- Carousel wrapper with automatic play -->
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel"
+            data-bs-interval="4000">
+
+            <!-- Carousel indicators -->
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            </div>
+
+            <!-- Carousel items -->
+            <div class="carousel-inner d-flex align-items-center" style="height: 400px;">
+              <div class="carousel-item active">
+                <div class="banner-text text-center">
+                  <span>The Chole Collection</span>
+                  <h1>The Project JACKET</h1>
+                  <a href="#product">SHOP NOW</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="banner-text text-center">
+                  <span>The Chole Collection</span>
+                  <h1>The Project JACKET</h1>
+                  <a href="#product">SHOP NOW</a>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="banner-text text-center">
+                  <span>The Chole Collection</span>
+                  <h1>The Project JACKET</h1>
+                  <a href="#product">SHOP NOW</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- <section class="discount mt-4">
+    <div class="container">
+      <div class="ds-container"> 
+        <div class="ds-image">
+          <img src="images/discount.jpg.webp" class="img-fluid" alt="" srcset="">
+        </div>
+        <div class="ds-items text-center">
+          <div class="circle bg-white m-auto"></div>
+          <div class="ds-text">
+            <span>DISCOUNT</span>
+            <H2>SUMMER 2024</H2>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section> -->
 
 
 

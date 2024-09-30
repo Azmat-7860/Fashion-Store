@@ -22,3 +22,33 @@
   }
 
 }
+
+/* SMALL screen media query end */
+
+
+/* this media query for the grid  */
+@media(max-width:992px) {
+  .home-container {
+    display: grid;
+    /* grid-template-columns: repeat(2, 1fr); */
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    gap: 5px;
+  }
+
+  .ds-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .ds-items {
+    width: 100%;
+    border: 1px solid;
+    height: 100%;
+    position: relative;
+    background-color: #f4f4f4;
+    padding: 75px 90px 50px;
+  }
+
+}
