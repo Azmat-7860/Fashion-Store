@@ -9,28 +9,10 @@
 
 /* large screen media query end */
 
-
-/* SMALL screen media query START */
-@media (max-width:575px) {
-  .left-text h1 {
-    font-size: 45px;
-  }
-
-  .left-text {
-    margin-left: 15px;
-
-  }
-
-}
-
-/* SMALL screen media query end */
-
-
 /* this media query for the grid  */
 @media(max-width:992px) {
   .home-container {
     display: grid;
-    /* grid-template-columns: repeat(2, 1fr); */
     grid-template-columns: auto;
     grid-template-rows: auto;
     gap: 5px;
@@ -44,11 +26,34 @@
 
   .ds-items {
     width: 100%;
-    border: 1px solid;
-    height: 100%;
+    height: 415px;
     position: relative;
     background-color: #f4f4f4;
-    padding: 75px 90px 50px;
+  }
+
+  .ds-text h2 {
+    font-size: 40px;
+
   }
 
 }
+
+/* SMALL screen media query START */
+@media (max-width:575px) {
+  .left-text h1 {
+    font-size: 45px;
+  }
+
+  .left-text {
+    margin-left: 15px;
+
+  }
+
+  .ds-text h2 {
+    /* font-size: 30px; */
+
+  }
+
+}
+
+/* SMALL screen media query end */
