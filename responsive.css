@@ -31,9 +31,19 @@
     background-color: #f4f4f4;
   }
 
+
+
+
   .ds-text h2 {
     font-size: 40px;
 
+  }
+
+  .sr-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 5px;
   }
 
 }
@@ -49,9 +59,11 @@
 
   }
 
-  .ds-text h2 {
-    /* font-size: 30px; */
-
+  .sr-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    gap: 5px;
   }
 
 }

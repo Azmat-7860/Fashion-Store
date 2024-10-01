@@ -301,9 +301,6 @@ body {
   background-color: #ca1515;
 }
 
-.discount {
-  height: 900px;
-}
 
 .ds-container {
   display: grid;
@@ -354,7 +351,7 @@ body {
   width: 100%;
   position: absolute;
   z-index: 12;
-  top: 55%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -395,4 +392,34 @@ body {
   font-size: small;
   padding-top: 20px;
 
+}
+
+.service {}
+
+.sr-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.sr-items {
+
+  margin-top: 12px;
+}
+
+.sr-items i {
+  /* position: absolute; */
+  color: #ca1515;
+  font-size: 45px;
+  padding-top: 5px;
+}
+
+.service .container {
+  /* margin: 0px 10px; */
+  /* padding: 10px 0px; */
+
+  border-radius: 5px;
+
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
