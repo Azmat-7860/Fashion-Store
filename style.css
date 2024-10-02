@@ -301,20 +301,15 @@ body {
   background-color: #ca1515;
 }
 
-
 .ds-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
 }
 
-
-
 .ds-image {
   width: 100%;
-
   height: auto;
-
 }
 
 .ds-image img {
@@ -416,10 +411,54 @@ body {
 }
 
 .service .container {
-  /* margin: 0px 10px; */
-  /* padding: 10px 0px; */
-
   border-radius: 5px;
-
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.in-container {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  height: 500px;
+}
+
+.in-items {
+  height: 320px;
+  position: relative;
+  border-radius: 5px;
+  transition: visibility 5s ease-in;
+}
+
+.in-items img {
+  height: 100%;
+  height: 100%;
+}
+
+.in-items-text {
+  position: absolute;
+  background-color: white;
+  height: 320px;
+  z-index: 1;
+  width: 100%;
+  color: black;
+  border-radius: 5px;
+  visibility: hidden;
+  /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+}
+
+.in-items:hover .in-items-text {
+  visibility: visible;
+}
+
+.carousel-indicators {
+  position: absolute;
+  right: 0;
+  bottom: -70px;
+  left: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin-right: 15%;
+  margin-bottom: 1rem;
+  margin-left: 15%;
 }

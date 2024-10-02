@@ -31,12 +31,8 @@
     background-color: #f4f4f4;
   }
 
-
-
-
   .ds-text h2 {
     font-size: 40px;
-
   }
 
   .sr-container {
@@ -44,6 +40,21 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     gap: 5px;
+  }
+
+  .in-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+  }
+
+}
+
+@media(min-width : 576px) and (max-width : 767px) {
+  .in-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 500px;
   }
 
 }
@@ -64,6 +75,12 @@
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     gap: 5px;
+  }
+
+  .in-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 500px;
   }
 
 }
