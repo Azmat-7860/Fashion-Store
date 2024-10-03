@@ -193,9 +193,7 @@ body {
   position: absolute;
   height: 50px;
   visibility: hidden;
-  /* initially hidden */
   opacity: 0;
-  /* invisible */
   padding-left: 0px;
   width: 100%;
   bottom: 30px;
